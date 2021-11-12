@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+@font-face{
+
+    font-family: ;
+}
+
+body,html{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+}
+
+#caixa1, #caixa2, #caixa3{
+
+
+    height: 100%;
+ 
+
+}
+
+#caixa1{
+    
+    position: relative;
+    background: url('imagens/imagem1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.logo{
+
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 20px;
+     letter-spacing: 5px;
+    
+}
+
+.logo2{
+
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 20px;
+     letter-spacing: 5px;
+    
+}
+
+.logo3{
+
+
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 20px;
+     letter-spacing: 5px;
+
+
+}
+
+#caixa2{
+
+    background: url('imagens/imagem2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#caixa3{
+
+    background:url('imagens/imagem4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+#conteudo, #conteudo2{
+
+    padding: 35px;
+    text-align: center;
+   
+    height: 50%;
+
+}
